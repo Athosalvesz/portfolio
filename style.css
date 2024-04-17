@@ -641,7 +641,8 @@ footer {
 .slider img {
     flex: 0 0 100%;
     scroll-snap-align: start;
-    object-fit: cover;
+    background-image: cover;
+   object-fit: cover;
 }
 
 .slider-nav {
@@ -724,3 +725,5 @@ footer {
   .menu-mobile.abrir-menu ~ .overlay-menu{
     display: block;
   }
+
+  
