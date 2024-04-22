@@ -9,17 +9,12 @@ html {
     scroll-behavior: smooth;
 }
 
-.whatsapp-button a i {
-    font-size: 50px;
-    color: #ff3131;
-}
-
 .linkedin-button {
     position: fixed;
-    bottom: 40px;
-    right: 20px;
-    width: 50px;
-    height: 95px;
+    bottom: 80px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
     transition: scale 0.3s;
 }
 
@@ -28,9 +23,9 @@ html {
 .instagram-button {
     position: fixed;
     bottom: 20px;
-    right: 22px;
-    width: 48px;
-    height: 55px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
     transition: scale 0.3s;
 }
 
@@ -50,18 +45,13 @@ html {
     height: auto;
 }
 
-.whatsapp-button:hover {
-    scale: 1.1;
-
-}
-
 .instagram-button:hover {
-    scale: 1.1;
+    scale: 0.9;
 
 }
 
 .linkedin-button:hover {
-    scale: 1.1;
+    scale: 0.9;
 
 }
 
@@ -598,10 +588,6 @@ footer {
     #footer_content {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
-        max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
     }
 }
 
@@ -618,7 +604,6 @@ footer {
 
 .slider-wrapper {
     position: relative;
-    max-width: 48rem;
     margin: 0 auto;
 }
 
