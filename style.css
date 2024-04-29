@@ -11,18 +11,16 @@ html {
 
 .linkedin-button {
     position: fixed;
-    bottom: 80px;
+    bottom: 90px;
     right: 25px;
     width: 45px;
     height: 45px;
     transition: scale 0.3s;
 }
 
-
-
 .instagram-button {
     position: fixed;
-    bottom: 20px;
+    bottom: 30px;
     right: 25px;
     width: 45px;
     height: 45px;
@@ -159,6 +157,7 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
     color: #fff;
     margin: 40px 0;
+    max-width: 700px;
 }
 
 .topo-do-site .img-topo-site img {
@@ -240,13 +239,12 @@ section.sobre .flex {
 
 .sobre .txt-sobre p {
     margin: 20px 0;
-    text-align: justify;
+    max-width: 600px;
 }
 
-section.portifolio {
-    padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #ffffff09;
-
+.divider {
+    margin: 100px 100px 100px 100px;
+    border-top: solid 2px #ff3131;
 }
 
 section.portifolio .flex {
@@ -485,7 +483,7 @@ footer {
 
 #footer_social_media {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 1.5rem;
 }
 
@@ -497,7 +495,7 @@ footer {
     width: 2.5rem;
     color: var(--color-neutral-40);
     border-radius: 50%;
-    transition: all 0.4s;
+    transition: all 0.3s;
 }
 
 #footer_social_media .footer-link i {
@@ -588,6 +586,15 @@ footer {
     #footer_content {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
+    }
+
+    .espaco {
+        display: none;
+    }
+
+    .divider {
+        margin: 30px 20px 30px 20px;
+        border-top: solid 2px #ff3131;
     }
 }
 
